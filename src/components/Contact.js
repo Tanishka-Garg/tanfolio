@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center lg:bg-site bg-no-repeat bg-cover overflow-hidden pt-8"
+      className="min-h-[200vh] lg:min-h-[78vh] flex items-center lg:bg-site bg-no-repeat bg-cover overflow-hidden pt-8"
       style={{ height: "700px" }}
       id="contact"
     >
@@ -60,7 +60,7 @@ const Contact = () => {
             whileInView={"show"}
             className="flex-1"
           >
-            <h3 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">
+            <h3 className="text-2xl uppercase text-accent mb-2 tracking-wide font-bold">
               Get in touch
             </h3>
             <h2 className="mb-6 mt-4 text-[36px] lg:text-[50px] font-semibold uppercase leading-none">

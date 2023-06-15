@@ -32,9 +32,9 @@ const ProjectCard = ({ name, description, image, github_link }) => {
             </div>
           </div>
         </div>
-        <div className="mt-5 text-accent">
+        <div className="mt-5 text-accent font-bold">
           <h3>{name}</h3>
-          <p className="mt-2 text-bold">{description}</p>
+          <p className="mt-2">{description}</p>
         </div>
       </div>
     </motion.div>

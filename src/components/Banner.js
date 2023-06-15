@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center lg:bg-site bg-no-repeat bg-cover overflow-hidden pt-6"
+      className="min-h-[85vh] lg:min-h-[78vh] flex items-center lg:bg-site bg-no-repeat bg-cover overflow-hidden pt-8"
       id="home"
     >
       <div className="container mx-auto ">
