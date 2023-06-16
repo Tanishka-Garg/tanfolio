@@ -79,9 +79,7 @@ const Work = () => {
                 "Web-based platform that allows users to save and organize bucket lists and notes, making your dreams and ideas easily accessible"
               }
               image={listify_img}
-              github_link={
-                "https://competent-kilby-fff24a.netlify.app/icons?name=di"
-              }
+              github_link={"https://github.com/Tanishka-Garg/listify"}
             />
             <ProjectCard
               name={"buzzbizz"}
@@ -89,9 +87,7 @@ const Work = () => {
                 "A dynamic website offering comprehensive news coverage across diverse topics using real-time data from the News API."
               }
               image={buzzbizz_img}
-              github_link={
-                "https://competent-kilby-fff24a.netlify.app/icons?name=di"
-              }
+              github_link={"https://github.com/Tanishka-Garg/BuzzBits"}
             />
             <ProjectCard
               name={"tinkertext"}
@@ -99,9 +95,7 @@ const Work = () => {
                 "A versatile online text manipulation tool that enables users to manipulate text to while also providing calculations for read time, character count, and word count."
               }
               image={tinkertext_img}
-              github_link={
-                "https://competent-kilby-fff24a.netlify.app/icons?name=di"
-              }
+              github_link={"https://github.com/Tanishka-Garg/TinkerText"}
             />
           </motion.div>
         </div>
