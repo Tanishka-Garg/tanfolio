@@ -15,22 +15,16 @@ const ProjectCard = ({ name, description, image, github_link }) => {
       transition={{ duration: 0.3 }}
     >
       <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
-        <div className=" group relative overflow-hidden border-2 border-white/50 rounded-2xl">
+        <div
+          className=" group relative overflow-hidden border-2 border-white/50 rounded-2xl cursor-pointer"
+          onClick={() => window.open(github_link, "_blank")}
+        >
           <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl "
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(github_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <div className="w-1/2 h-1/2 object-contain">
-                <FaGithub />
-              </div>
-            </div>
-          </div>
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover"></div>
         </div>
         <div className="mt-5 text-accent font-bold">
           <h3>{name}</h3>
