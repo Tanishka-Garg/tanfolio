@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../motion";
+
 import {
   SiPython,
   SiCplusplus,
@@ -13,6 +14,7 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiMysql,
+  SiExpress,
   SiGit,
 } from "react-icons/si";
 const Tech = () => {
@@ -79,6 +81,7 @@ const Tech = () => {
               <Skillcard title={" Bootstrap"} icon={<SiBootstrap />} />
               <Skillcard title={" MongoDB"} icon={<SiMongodb />} />
               <Skillcard title={" Node.js"} icon={<SiNodedotjs />} />
+              <Skillcard title={" Express.js"} icon={<SiExpress />} />
               <Skillcard title={" MySQL"} icon={<SiMysql />} />
               <Skillcard title={" Git"} icon={<SiGit />} />
             </div>
