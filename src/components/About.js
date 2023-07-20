@@ -5,7 +5,6 @@ import { fadeIn } from "../motion";
 import { SiWebpack } from "react-icons/si";
 import { BsPencilSquare } from "react-icons/bs";
 import { GiArtificialIntelligence } from "react-icons/gi";
-import { FaServer } from "react-icons/fa";
 
 const About = () => {
   const ServiceCard = ({ title, icon }) => {
@@ -69,7 +68,7 @@ const About = () => {
             title={"Machine Learning"}
             icon={<GiArtificialIntelligence />}
           />
-          <ServiceCard title={"Backend Developer"} icon={<FaServer />} />
+
           <ServiceCard title={"Writer"} icon={<BsPencilSquare />} />
         </div>
       </div>

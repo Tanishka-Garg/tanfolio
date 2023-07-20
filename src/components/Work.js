@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../motion";
-import { FaGithub } from "react-icons/fa";
 
 import buzzbizz_img from "../assets/projectImg/buzzbizz.png";
 import listify_img from "../assets/projectImg/listify.png";
